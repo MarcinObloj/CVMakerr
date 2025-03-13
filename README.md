@@ -5,13 +5,13 @@ CvMaker to aplikacja webowa, która umożliwia użytkownikom tworzenie profesjon
 
 Funkcje
 =======
-Tworzenie CV: Użytkownik może wprowadzić swoje dane, takie jak imię, nazwisko, doświadczenie zawodowe, umiejętności itp.
+-Tworzenie CV: Użytkownik może wprowadzić swoje dane, takie jak imię, nazwisko, doświadczenie zawodowe, umiejętności itp.
 
-Podgląd na żywo: Podgląd CV w czasie rzeczywistym podczas wprowadzania danych.
+-Podgląd na żywo: Podgląd CV w czasie rzeczywistym podczas wprowadzania danych.
 
-Pobieranie PDF: Możliwość pobrania CV w formacie PDF.
+-Pobieranie PDF: Możliwość pobrania CV w formacie PDF.
 
-Responsywny design: Aplikacja działa na różnych urządzeniach (komputery, tablety, telefony).
+-Responsywny design: Aplikacja działa na różnych urządzeniach (komputery, tablety, telefony).
 
 Technologie
 =======
@@ -28,25 +28,26 @@ Jak uruchomić projekt lokalnie
 =========
 Wymagania wstępne
 ---------------
-Java 17 (lub nowsza)
+-Java 17 (lub nowsza)
 
-Node.js (opcjonalnie, do zarządzania zależnościami frontendu)
+-Node.js (opcjonalnie, do zarządzania zależnościami frontendu)
 
-PostgreSQL (lub inna baza danych obsługiwana przez Spring Boot)
+-PostgreSQL (lub inna baza danych obsługiwana przez Spring Boot)
 
-Maven (do zarządzania zależnościami backendu)
+-Maven (do zarządzania zależnościami backendu)
 
 Backend (Spring Boot)
 ----------
-Sklonuj repozytorium:
+1.Sklonuj repozytorium:
 
 
 https://github.com/MarcinObloj/CVMakerr.git
-Przejdź do folderu backendu:
+2.Przejdź do folderu backendu:
 
 
-cd CvMaker/backend
-Skonfiguruj bazę danych:
+cd CvMakerr/app
+
+3.Skonfiguruj bazę danych:
 
 Utwórz bazę danych PostgreSQL o nazwie cvmaker.
 
@@ -56,10 +57,9 @@ Zaktualizuj plik application.properties w folderze src/main/resources z danymi d
 spring.datasource.url=jdbc:postgresql://localhost:5432/cvmaker
 spring.datasource.username=twoj-uzytkownik
 spring.datasource.password=twoje-haslo
-Uruchom aplikację Spring Boot:
 
+4.Uruchom aplikację Spring Boot:
 
-mvn spring-boot:run
 Frontend
 -------
 Przejdź do folderu frontendu:
