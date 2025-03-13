@@ -1,40 +1,42 @@
-CvMaker
-=======
+# CvMaker
+
 CvMaker to aplikacja webowa, która umożliwia użytkownikom tworzenie profesjonalnych CV i pobieranie ich w formacie PDF. Projekt składa się z frontendu (HTML, SCSS, JavaScript) oraz backendu (Spring Boot, PostgreSQL).
 
 
-Funkcje
-=======
--Tworzenie CV: Użytkownik może wprowadzić swoje dane, takie jak imię, nazwisko, doświadczenie zawodowe, umiejętności itp.
+## Funkcje
 
--Podgląd na żywo: Podgląd CV w czasie rzeczywistym podczas wprowadzania danych.
+- Tworzenie CV: Użytkownik może wprowadzić swoje dane, takie jak imię, nazwisko, doświadczenie zawodowe, umiejętności itp.
 
--Pobieranie PDF: Możliwość pobrania CV w formacie PDF.
+- Podgląd na żywo: Podgląd CV w czasie rzeczywistym podczas wprowadzania danych.
 
--Responsywny design: Aplikacja działa na różnych urządzeniach (komputery, tablety, telefony).
+- Pobieranie PDF: Możliwość pobrania CV w formacie PDF.
 
-Technologie
-=======
+- Responsywny design: Aplikacja działa na różnych urządzeniach (komputery, tablety, telefony).
 
-Frontend
---------
+## Technologie
+
+
+### Frontend
+
 <div style="display: flex; gap: 10px; align-items: center;"> <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" title="HTML"/> <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" title="CSS"/> <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SCSS" title="SCSS"/> <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" title="JavaScript"/> </div>
 
-Backend
---------
+### Backend
+
 <div style="display: flex; gap: 10px; align-items: center;"> <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" title="Java"/> <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring Boot" title="Spring Boot"/> <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL" title="PostgreSQL"/> </div>
+
+##
 
 Jak uruchomić projekt lokalnie
 =========
 Wymagania wstępne
 ---------------
--Java 17 (lub nowsza)
+- Java 17 (lub nowsza)
 
--Node.js (opcjonalnie, do zarządzania zależnościami frontendu)
+- Node.js (opcjonalnie, do zarządzania zależnościami frontendu)
 
--PostgreSQL (lub inna baza danych obsługiwana przez Spring Boot)
+- PostgreSQL (lub inna baza danych obsługiwana przez Spring Boot)
 
--Maven (do zarządzania zależnościami backendu)
+- Maven (do zarządzania zależnościami backendu)
 
 Backend (Spring Boot)
 ----------
