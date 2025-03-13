@@ -24,12 +24,30 @@ CvMaker to aplikacja webowa, która umożliwia użytkownikom tworzenie profesjon
 
 <div style="display: flex; gap: 10px; align-items: center;"> <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" title="Java"/> <img src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring Boot" title="Spring Boot"/> <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL" title="PostgreSQL"/> </div>
 
-##
+## Przegląd aplikacji
 
-Jak uruchomić projekt lokalnie
-=========
-Wymagania wstępne
----------------
+### Strona główna:
+
+### Rejestracja:
+
+### Login:
+
+### Reset hasła:
+
+### Wybór szablonu:
+
+### Tworzenie CV:
+
+### Stworzone CV:
+
+### Panel użytkownika
+
+### Panel admina:
+
+## Jak uruchomić projekt lokalnie
+
+### Wymagania wstępne
+
 - Java 17 (lub nowsza)
 
 - Node.js (opcjonalnie, do zarządzania zależnościami frontendu)
@@ -38,34 +56,36 @@ Wymagania wstępne
 
 - Maven (do zarządzania zależnościami backendu)
 
-Backend (Spring Boot)
-----------
+### Backend (Spring Boot)
+
 1.Sklonuj repozytorium:
 
-
+```bash
 https://github.com/MarcinObloj/CVMakerr.git
+```
 2.Przejdź do folderu backendu:
 
-
+```bash
 cd CvMakerr/app
-
+```
 3.Skonfiguruj bazę danych:
 
 Utwórz bazę danych PostgreSQL o nazwie cvmaker.
 
 Zaktualizuj plik application.properties w folderze src/main/resources z danymi do połączenia z bazą danych:
 
-
+```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/cvmaker
 spring.datasource.username=twoj-uzytkownik
 spring.datasource.password=twoje-haslo
-
+```
 4.Uruchom aplikację Spring Boot:
 
 Frontend
 -------
 Przejdź do folderu frontendu:
-
+```bash
 cd CvMaker/frontend
+```
 Uruchom Live Server:
 Otwórz plik index.html w przeglądarce lub użyj rozszerzenia Live Server w VS Code.
