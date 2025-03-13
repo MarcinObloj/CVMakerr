@@ -27,23 +27,23 @@ CvMaker to aplikacja webowa, która umożliwia użytkownikom tworzenie profesjon
 ## Przegląd aplikacji
 
 ### Strona główna:
-
+![Strona_główna](https://i.imgur.com/auLokE1.png)
 ### Rejestracja:
-
+![Strona_główna](https://i.imgur.com/2CQ4vDl.png)
 ### Login:
-
+![Strona_główna](https://i.imgur.com/GMfbPQj.png)
+### Blog:
+![Strona_główna](https://i.imgur.com/RNblUng.png)
 ### Reset hasła:
-
+![Strona_główna](https://i.imgur.com/O3hmaFB.png)
 ### Wybór szablonu:
-
+![Strona_główna](https://i.imgur.com/sOsMdA3.png)
 ### Tworzenie CV:
-
+![Strona_główna](https://i.imgur.com/nnJBFAC.png)
 ### Stworzone CV:
-
-### Panel użytkownika
-
+![Strona_główna](https://i.imgur.com/VDPFESs.png)
 ### Panel admina:
-
+![Strona_główna](https://i.imgur.com/jOe8Dbf.png)
 ## Jak uruchomić projekt lokalnie
 
 ### Wymagania wstępne
